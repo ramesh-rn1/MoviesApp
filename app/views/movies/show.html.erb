@@ -17,6 +17,7 @@
       <%= image_tag actor.image %>
       <h3 class="actor-name"><%= actor.first_name %> <%= actor.last_name %></h3>
       <p class="actor-bio"><%= actor.bio %></p>
+      <%= link_to "Learn more", actor_path(actor) %>
     </div>
 		<% end %>
   </div>
